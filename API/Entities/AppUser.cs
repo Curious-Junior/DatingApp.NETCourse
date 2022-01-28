@@ -13,5 +13,9 @@ namespace API.Entities
         public int Id { get; set; }
         // The user name should be named UserName every time
         public string UserName { get; set; }
+
+        // the password hash and password salt
+        public byte[] PasswordHash { get; set; }
+        public byte[] PasswordSalt { get; set; }
     }
 }
