@@ -1,0 +1,8 @@
+.dropdown-toggle, .dropdown-item {
+    cursor: pointer;
+}
+
+.nu {
+    text-decoration: none;
+    color: white
+}
